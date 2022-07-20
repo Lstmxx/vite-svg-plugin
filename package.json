@@ -1,6 +1,6 @@
 {
   "name": "vite-svg-plugin",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "transfer svg file to svg symbol in vite",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
