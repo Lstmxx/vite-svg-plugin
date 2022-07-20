@@ -29,7 +29,9 @@ use svg to import
 </svg>
 ```
 
-if you set prefix, the iconName is `#${prefix}-${svgFileName}`. if not, this iconName is `#${svgFileName}`.
+if you set prefix, the iconName is `#${prefix}-${svgFileName}`. if not, the iconName is `#${svgFileName}`.
+
+you can check the examples to know the detail.
 
 ## config
 
