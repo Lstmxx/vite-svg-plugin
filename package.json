@@ -1,10 +1,10 @@
 {
   "name": "vite-svg-plugin",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "transfer svg file to svg symbol in vite",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "typings": "dist/index.d.ts",
+  "typings": "dist/esm/index.d.ts",
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "postbuild": "tsc  --emitDeclarationOnly --declaration --project tsconfig.json --outDir dist/esm",
