@@ -36,7 +36,7 @@ export const formatSvgTagAsSymbolTag = (
   return svgStr
     .replace(findSvgTitleReg, ($1: string, svgTagStr: string) => {
       const extractRes = extractSvgHeightWidth(svgTagStr);
-      if (findViewBoxReg.test(extractRes.str)) {
+      if (!findViewBoxReg.test(extractRes.str)) {
         const { width, height } = extractRes;
         extractRes.str += `viewBox="0 0 ${width} ${height}"`
       }
