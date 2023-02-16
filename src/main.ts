@@ -37,7 +37,7 @@ export const svgBuilder = (option: IOption): Plugin => {
     transformIndexHtml(html): string {
       return res.length > 0
         ? html.replace(
-            '<body>',
+            /<body.*?>/,
             `
               <body>
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute; width: 0; height: 0">
