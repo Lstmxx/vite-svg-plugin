@@ -1,6 +1,6 @@
 {
   "name": "vite-svg-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "transfer svg file to svg symbol in vite",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -21,7 +21,7 @@
     "plugin"
   ],
   "author": "Lstmxx",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Lstmxx/vite-svg-plugin/issues"
   },
